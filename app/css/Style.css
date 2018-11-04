@@ -1,0 +1,43 @@
+﻿body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.text-center{
+    margin-top:3%;
+}
+
+.form-control {
+    width: 40%;
+    margin-left: 30%;
+}
+
+#namelabel{
+    margin-right:32%;
+}
+
+#roomnumlabel{
+    margin-right:24%;
+}
+
+
+#remoteVideos video {
+    height: 50%;
+}
+
+#localVideo {
+    height: 50%;
+}
+.videopart{
+    width:50%;
+    left:25%;
+    position:absolute;
+    overflow:auto;
+}
+
+.videopart video {
+    display:inline-block;
+}
