@@ -23,9 +23,6 @@
             <h3>VideoRTC</h3>
             <h5>Share the link to your friend to start video chatting~</h5>
 
-            <!-- Chat Room Form -->
-
-
             <div class="form">
                 <div class="form-group">
                     <label for="name" id="namelabel">Name</label>
@@ -38,18 +35,20 @@
                 </div>
 
                 <div class="buttons">
-                    <button id="create-btn" class="ui submit orange button">Create Room</button>
-                    <button id="join-btn" class="ui submit green button">Join Room</button>
+                    <button id="createBtn" class="ui submit orange button">Create Room</button>
+                    <button id="joinBtn" class="ui submit green button">Join Room</button>
+                    <button id="endBtn">End Room</button>
                 </div>
             </div>
             <br />
             
         </div>
         <div class="videopart">
-            <video id="localVid" autoplay></video>
+            <video id="me" autoplay></video>
 
-            <div id="remoteVids"></div>
+            <div id="remote"></div>
         </div>
+        
     </body>
    
     </html>
