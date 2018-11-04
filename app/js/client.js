@@ -65,7 +65,7 @@
     };
 
     
-    // Remote video was added
+    // Add remote video
     webrtc.on('videoAdded', (video, peer) => {
         console.log("here");
         const id = webrtc.getDomId(peer);
